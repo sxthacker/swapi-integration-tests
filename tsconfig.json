@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "nodenext",
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true
+  },
+  "exclude": ["node_modules", "lib"]
+}

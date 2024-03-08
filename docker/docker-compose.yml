@@ -1,0 +1,6 @@
+services:
+  swapi:
+    image: juriy/swapi:latest
+    ports:
+      - 8000:8000
+

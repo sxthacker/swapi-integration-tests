@@ -1,0 +1,25 @@
+{
+  "name": "swapi-integration-tests",
+  "version": "1.0.0",
+  "description": "Take home project for Crunchyroll",
+  "scripts": {
+    "test": "jest",
+    "test:local": "npm run test:docker-start && sleep 3 && npm run test ; npm run test:docker-stop",
+    "test:docker-start": "docker compose --project-directory ./docker up --detach",
+    "test:docker-stop": "docker compose --project-directory ./docker down"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-typescript": "^7.23.3",
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.12",
+    "axios": "^1.6.7",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
