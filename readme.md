@@ -17,7 +17,7 @@ I had also provided a way to do data driven testing, by providing and interface 
 
 ## Commands
 ### Running Tests (Docker)
-To start docker:
+To start Docker:
 ```
 npm run test:docker-start
 ```
@@ -27,12 +27,12 @@ To run tests:
 npm run test
 ```
 
-To stop docker:
+To stop Docker:
 ```
 npm run test:docker-stop
 ```
 
-#### Docker Run with 1 Command
+Running Docker test run with 1 Command
 ```
 npm run test:local
 ```
