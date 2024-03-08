@@ -18,19 +18,19 @@ I had also provided a way to do data driven testing, by providing and interface 
 ## Commands
 ### Running Tests (Docker)
 To start docker:
-`npm run test:docker-start`
+```npm run test:docker-start```
 
 To run tests:
-`npm run test`
+```npm run test```
 
 To stop docker:
-`npm run test:docker-stop`
+```npm run test:docker-stop```
 
 Running everything with 1 command:
-`npm run test:local`
+```npm run test:local```
 
 ### Running Test (URL)
-`SWAPI_URL=<URL> npm run test`
+```SWAPI_URL=<URL> npm run test```
 
 ## Assumptions
 1. I am only testing the API, nothing on the documentation site
