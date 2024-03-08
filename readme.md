@@ -37,7 +37,7 @@ To stop Docker:
 npm run test:docker-stop
 ```
 
-Running local tests with 1 Command
+Running local tests with 1 command
 ```
 npm run test:local
 ```
