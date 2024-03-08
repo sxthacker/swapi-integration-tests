@@ -15,6 +15,11 @@ I had also provided a way to do data driven testing, by providing and interface 
 - Node
 - Docker* (env variable SWAPI_URL can also be provided)
 
+## Setup
+```
+npm install
+```
+
 ## Commands
 ### Running Tests (Docker)
 To start Docker:
