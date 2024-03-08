@@ -37,4 +37,5 @@ Running everything with 1 command:
 2. I am not testing the dynamically generating URLs, it seems like a bad way to link relationships anyways
 3. The resources provided will not change in the environment I am testing
 4. The docker image I am using is "up to date", only having basic features
-5. My testing for *people* should be enough to demonstrate my ability to test the other endpoints
+5. Schema validation is a waste of time, there are more effect ways to ensure the schema is correct
+6. My testing for *people* should be enough to demonstrate my ability to test the other endpoints
