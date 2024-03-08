@@ -37,7 +37,7 @@ Running Docker test run with 1 Command
 npm run test:local
 ```
 
-### Running Test (URL)
+### Running Tests (URL)
 ```
 SWAPI_URL=<URL> npm run test
 ```
